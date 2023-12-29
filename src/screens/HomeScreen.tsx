@@ -1,18 +1,19 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text } from 'react-native';
+import { styles } from './styles';
+import { MyButton } from '../components/MyButton';
 
 export function HomeScreen() {
   return (
     <View style={styles.container}>
-      <Text>Home Screen</Text>
+      <Text style={styles.title}>Essa tela só pode ser vista por usuários autenticados</Text>
+
+      <MyButton title='Ir para Configurações' />
+
+      <Text>
+        by <Text style={styles.coffText}>Rafael Calixta</Text>
+      </Text>
+
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

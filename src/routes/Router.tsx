@@ -4,7 +4,7 @@ import { AppStack } from './AppStack';
 import { AuthStack } from './AuthStack';
 
 function App() {
-  const auth = false;
+  const auth = true;
 
   return (
     <NavigationContainer>

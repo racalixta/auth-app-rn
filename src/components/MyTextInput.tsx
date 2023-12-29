@@ -10,7 +10,7 @@ export function MyTextInput(props: TextInputProps) {
 const styles = StyleSheet.create({
   input: {
     borderRadius: 8,
-    borderColor: "#1D013F",
+    borderColor: "#550AB1",
     paddingHorizontal: 8,
     color: "#000",
     borderWidth: 1,

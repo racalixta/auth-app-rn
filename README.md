@@ -26,7 +26,7 @@ git clone https://github.com/racalixta/expense-tracker-rn
 npm install
 
 # executar o projeto
-npx run ts:check
+npx expo start
 ```
 
 ## Autor

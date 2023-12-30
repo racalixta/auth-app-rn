@@ -6,7 +6,7 @@ import { AuthStack } from './AuthStack';
 function App() {
   const auth = true;
 
-  return (
+  return(
     <NavigationContainer>
       { auth ? <AppStack /> : <AuthStack /> }
     </NavigationContainer>
